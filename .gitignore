@@ -1,0 +1,22 @@
+# dirs
+.vscode
+push_swap_visualizer
+push_swap_tester
+bin
+srcs_backups
+
+# c
+*.dSYM
+*.out
+*.a
+*.o
+*.d
+
+# misc
+*.txt
+*.ini
+*.py
+push_swap
+checker*
+.DS_Store
+test.sh
