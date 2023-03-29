@@ -41,9 +41,11 @@ Number of elements: maximum number of instructions<br>
 500: 5499<br>
 <br>
 Testing the performance of push_swap once:<br>
+
 ```
 >>> ARG="$(python3 generator.py 100)"; ./push_swap $ARG | wc -l
 ```
+
 <br>
 The benchmark.py gives an average performance given multiple tests:<br>
 
