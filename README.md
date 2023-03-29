@@ -1,33 +1,33 @@
 # 42push_swap
 
-Push Swap is an exercise where the program must give a list of instructions to sort a stack. The stack is a list of distinct numbers given as arguments. 
-An initially empty secondary stack is avalaible.
-The possible instructions are as follows:
-
+Push Swap is an exercise where the program must give a list of instructions to sort a stack. The stack is a list of distinct numbers given as arguments.<br> 
+An initially empty secondary stack is avalaible.<br>
+The possible instructions are as follows:<br>
+<br>
 sa: swap the top and second elements of stack a <br>
-sb: same for stack b
-ss: same for both stacks
-
-ra: move the top element of stack a to bottom
-rb: same for stack b
-rr: same for both stacks
-
-rra: move the last element of stack a to top
-rrb: same for stack b
-rrr: same for both stacks
-
-pa: push a's top element to b's top
-pb: push b's top element to a's top
-
-The program should print the smallest possible list of instructions that sorts the stack.
-Compilation:
-$ make
-The exercise's bonus is a program that reads a list of instructions and checks if they successfully sort the stack.
-Compilation:
-$ make bonus
-The generator.py script gives a randomly ordered list of numbers.
-Testing the correctness of push_swap:
-$ ARG="$(python3 generator.py 100)"; ./push_swap $ARG | ./checker $ARG
+sb: same for stack b<br>
+ss: same for both stacks<br>
+<br>
+ra: move the top element of stack a to bottom<br>
+rb: same for stack b<br>
+rr: same for both stacks<br>
+<br>
+rra: move the last element of stack a to top<br>
+rrb: same for stack b<br>
+rrr: same for both stacks<br>
+<br>
+pa: push a's top element to b's top<br>
+pb: push b's top element to a's top<br>
+<br>
+The program should print the smallest possible list of instructions that sorts the stack.<br>
+Compilation:<br>
+$ make<br>
+The exercise's bonus is a program that reads a list of instructions and checks if they successfully sort the stack.<br>
+Compilation:<br>
+$ make bonus<br>
+The generator.py script gives a randomly ordered list of numbers.<br>
+Testing the correctness of push_swap:<br>
+$ ARG="$(python3 generator.py 100)"; ./push_swap $ARG | ./checker $ARG<br>
 
 Here's the threshold for a perfect score:
 Number of elements: maximum number of instructions
