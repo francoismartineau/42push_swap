@@ -46,6 +46,7 @@ Testing the performance of push_swap once:<br>
 ```
 <br>
 The benchmark.py gives an average performance given multiple tests:<br>
+
 ```
 >>> python3 benchmark.py 3 1000
 'python3 benchmark.py 3 1000
@@ -53,18 +54,21 @@ Average number of instructions: 1.151
 Maximum number of instructions: 2
 Minimum number of instructions: 0'
 ```
+
 ```
 >>> python3 benchmark.py 5 1000
 'Average number of instructions: 6.459
 Maximum number of instructions: 12
 Minimum number of instructions: 0'
 ```
+
 ```
 >>> python3 benchmark.py 100 1000
 'Average number of instructions: 579.828
 Maximum number of instructions: 647
 Minimum number of instructions: 529'
 ```
+
 ```
 >>> python3 benchmark.py 500 1000
 'Average number of instructions: 5132.158
