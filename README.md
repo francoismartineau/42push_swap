@@ -49,7 +49,7 @@ The benchmark.py gives an average performance given multiple tests:<br>
 
 ```
 >>> python3 benchmark.py 3 1000
-Average number of instructions: 1.151
+'Average number of instructions: 1.151
 Maximum number of instructions: 2
 Minimum number of instructions: 0'
 ```
