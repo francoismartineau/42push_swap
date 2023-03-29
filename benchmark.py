@@ -9,6 +9,6 @@ average = 0
 test_qty = int(sys.argv[2])
 cmd = f'./push_swap $(python3 generator.py {sys.argv[1]})'
 for _ in range(test_qty):
-	res = subprocess.check_output(cmd, stderr=subprocess.STDOUT, shell=True).decode('utf-8')
-	average += len(res.split('\n'))
+	res = subprocess.check_output(cmd, shell=True).decode('utf-8')
+	average += len(res.split('\n')) - 1
 print(f'Average number of instructions: {average / test_qty}')
