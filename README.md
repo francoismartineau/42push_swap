@@ -1,8 +1,6 @@
 # 42push_swap
 
-Push Swap is an exercise where the program must give a list of instructions to sort a stack. The stack is a list of distinct numbers given as arguments.<br> 
-An initially empty secondary stack is avalaible.<br>
-The possible instructions are as follows:<br>
+Push Swap is an exercise where the program must give a list of instructions to sort a stack. The stack is a list of distinct numbers given as arguments. An initially empty secondary stack is avalaible. The possible instructions are as follows:<br>
 <br>
 sa: swap the top and second elements of stack a <br>
 sb: same for stack b<br>
