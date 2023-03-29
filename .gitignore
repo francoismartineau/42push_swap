@@ -15,7 +15,6 @@ srcs_backups
 # misc
 *.txt
 *.ini
-*.py
 push_swap
 checker*
 .DS_Store
