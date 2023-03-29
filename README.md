@@ -4,7 +4,7 @@ Push Swap is an exercise where the program must give a list of instructions to s
 An initially empty secondary stack is avalaible.
 The possible instructions are as follows:
 
-sa: swap the top and second elements of stack a
+sa: swap the top and second elements of stack a <br>
 sb: same for stack b
 ss: same for both stacks
 
