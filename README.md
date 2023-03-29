@@ -27,7 +27,7 @@ Compilation:<br>
 ```
 >>> make bonus
 ```
-The generator.py script gives a randomly ordered list of numbers.<br>
+generator.py gives a randomly ordered list of numbers.<br>
 Testing the correctness of push_swap:<br>
 ```
 >>> ARG="$(python3 generator.py 100)"; ./push_swap $ARG | ./checker $ARG
@@ -47,7 +47,7 @@ Testing the performance of push_swap once:<br>
 ```
 
 <br>
-The benchmark.py gives an average performance given multiple tests:<br>
+benchmark.py gives an average performance given multiple tests:<br>
 
 ```
 >>> python3 benchmark.py 3 1000
