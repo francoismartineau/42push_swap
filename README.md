@@ -19,10 +19,14 @@ pb: push b's top element to a's top<br>
 <br>
 The program should print the smallest possible list of instructions that sorts the stack.<br>
 Compilation:<br>
-$ make<br>
+```
+$ make
+```
 The exercise's bonus is a program that reads a list of instructions and checks if they successfully sort the stack.<br>
 Compilation:<br>
-$ make bonus<br>
+```
+>>> make bonus
+```
 The generator.py script gives a randomly ordered list of numbers.<br>
 Testing the correctness of push_swap:<br>
 $ ARG="$(python3 generator.py 100)"; ./push_swap $ARG | ./checker $ARG<br>
